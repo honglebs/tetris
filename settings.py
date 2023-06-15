@@ -13,3 +13,12 @@ TILE_SIZE = 50
 FEILD_SIZE = FIELD_W, FIELD_H = 10, 20
 FIELD_RES = FIELD_W * TILE_SIZE, FIELD_H * TILE_SIZE
 
+TETROMINOES = {
+    'T': [(0, 0), (-1, 0), (1, 0), (0, -1)],
+    'O': [(0, 0), (0, -1), (1, 0), (1, -1)], 
+    'J': [],
+    'L': [],
+    'I': [],
+    'S': [],
+    'Z': []
+}

@@ -7,7 +7,7 @@ class Block(pg.sprite.Sprite):
         
         super().__init__(tetromino.tetris.sprite_group)
         self.image = pg.Surface([TILE_SIZE, TILE_SIZE])
-        self.image.fill("blue")
+        self.image.fill('orange')
 
         self.rect = self.image.get_rect()
         self.rect.topleft = pos[0] * TILE_SIZE, pos[1] * TILE_SIZE
