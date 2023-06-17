@@ -1,0 +1,16 @@
+GAME STRUCTURE
+ Definitions: 
+    - Defining the variables needed
+    - Creating the game objects
+ Game Loop:
+    - Updating the postions of the game objects
+    - Checking for collisions
+
+
+
+Game Loop
+
+1. Event Handling
+2. Updating Positions
+3. Drawing Objects
+
