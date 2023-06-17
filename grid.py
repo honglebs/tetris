@@ -1,3 +1,5 @@
+import pygame as pg
+
 class Grid:
     def __init__(self):
         self.num_rows = 20
@@ -24,7 +26,11 @@ class Grid:
 
         return [dark_grey, green, red, orange, yellow, purple, cyan, blue]
     
-    def draw(self):
+    def draw(self, screen):
         for row in range(self.num_rows):
             for column in range(self.num_cols):
                 cell_value = self.grid[row][column]
+                cell_rect = pg.Rect(column * self.cell_size + 1, row * self.cell_size + 1,
+                self.cell_size - 1, self.cell_size - 1)
+                # pygame.draw.rect(surface, color, rect)
+                pg.draw.rect(screen, self.colors[cell_value], cell_rect)
