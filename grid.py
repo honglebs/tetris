@@ -23,3 +23,8 @@ class Grid:
         blue = (13, 64, 216)
 
         return [dark_grey, green, red, orange, yellow, purple, cyan, blue]
+    
+    def draw(self):
+        for row in range(self.num_rows):
+            for column in range(self.num_cols):
+                cell_value = self.grid[row][column]

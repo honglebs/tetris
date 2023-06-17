@@ -9,8 +9,10 @@ GAME STRUCTURE
 
 
 Game Loop
-
 1. Event Handling
 2. Updating Positions
 3. Drawing Objects
 
+
+Display Surface - it is like blank canvas, we can only have on per game 
+Regular Surface - essentially a single image (something imported, rendered text or a plain color)
