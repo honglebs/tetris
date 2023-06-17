@@ -1,8 +1,18 @@
-import pygame as pg
+import pygame
+import sys
 
-pg.init()
+pygame.init()
 
-screen = pg.display.set_mod((300, 600))
-pg.display.set_caption("Python Tetris")
+screen = pygame.display.set_mod((300, 600))
+pygame.display.set_caption("Python Tetris")
 
-clock = pg.time.Clock()
+clock = pygame.time.Clock()
+
+# start of the game loop (check 3 things)
+while True:
+      for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+
+# 
