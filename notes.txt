@@ -30,3 +30,6 @@ Game Class - it will be a container for all the elements for our game
 
 - USEREVENT is a pygame specific libaray that allows devs to set a variable outside of the game loop
 - setting the falling movement of the tetrominoes
+
+
+Lock Block & Block Fits Methods
