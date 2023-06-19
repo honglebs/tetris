@@ -18,4 +18,11 @@ Display Surface - it is like blank canvas, we can only have on per game
 Regular Surface - essentially a single image (something imported, rendered text or a plain color)
 Rect - rectangles are used for positioning, collision detection and for drawing objects
 
+after putting in all the graphic corrdinates,
+created an off-set to be able to move the blocks, then re-position all the blocks to the middle of
+the grid where it would spawn
 
+Game Class - it will be a container for all the elements for our game 
+   - update block position
+   - checking for block collision
+   - code will be easier to read and de-bug
