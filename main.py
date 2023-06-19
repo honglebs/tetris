@@ -23,15 +23,15 @@ while True:
             pg.quit()
             sys.exit()
         if event.type == pg.KEYDOWN:
-            if event.key == pg.K_LEFT:
+            if event.key == pg.K_LEFT and game.game_over == False:
                 game.move_left()
-            if event.key == pg.K_RIGHT:
+            if event.key == pg.K_RIGHT and game.game_over == False:
                 game.move_right()
-            if event.key == pg.K_DOWN:
+            if event.key == pg.K_DOWN and game.game_over == False:
                 game.move_down()
-            if event.key == pg.K_UP:
+            if event.key == pg.K_UP and game.game_over == False:
                 game.rotate()
-        if event.type == GAME_UPDATE:
+        if event.type == GAME_UPDATE and game.game_over == False:
             game.move_down()
 
     # Drawing
