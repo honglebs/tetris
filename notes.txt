@@ -26,3 +26,4 @@ Game Class - it will be a container for all the elements for our game
    - update block position
    - checking for block collision
    - code will be easier to read and de-bug
+

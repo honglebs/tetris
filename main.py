@@ -26,6 +26,8 @@ while True:
                 game.move_right()
             if event.key == pg.K_DOWN:
                 game.move_down()
+            if event.key == pg.K_UP:
+                game.rotate()
 
     # Drawing
     screen.fill(dark_blue)
