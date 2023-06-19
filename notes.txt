@@ -9,6 +9,7 @@ GAME STRUCTURE
 
 
 Game Loop
+- loop happens 60 fps (does it for every frame)
 1. Event Handling
 2. Updating Positions
 3. Drawing Objects
@@ -27,3 +28,5 @@ Game Class - it will be a container for all the elements for our game
    - checking for block collision
    - code will be easier to read and de-bug
 
+- USEREVENT is a pygame specific libaray that allows devs to set a variable outside of the game loop
+- setting the falling movement of the tetrominoes
