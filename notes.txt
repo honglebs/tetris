@@ -40,3 +40,11 @@ How to display text
 1. Create a font
 2. Create surafce with the text
 3. Display the surface using .bilt() method
+
+
+Our Scoring System 
+ +100 points for a single line clear
+ +300 points for a double line clear
+ +500 points for a triple line clear
+ +1000 points for a tetris clear
+ +1 point for each tetromino moved down by the player
