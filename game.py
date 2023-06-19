@@ -57,7 +57,6 @@ class Game:
                 return False
         return True
 
-
     def rotate(self):
         self.current_block.rotate()
         if self.block_inside() == False or self.block_fits() == False:
