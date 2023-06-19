@@ -1,9 +1,14 @@
 import pygame as pg
 import sys
 from game import Game
+from colors import Colors
 
 pg.init()
-dark_blue = (44, 44, 127)
+
+title_font = pg.font.Font(None, 40)
+score_surface = title_font.render("Score", True, Colors.white)
+
+score_rect = pg.Rect(320, 55, 170, 60)
 
 screen = pg.display.set_mode((500, 620))
 pg.display.set_caption("Tetris")
@@ -38,7 +43,9 @@ while True:
             game.move_down()
 
     # Drawing
-    screen.fill(dark_blue)
+    screen.fill(Colors.dark_blue)
+    screen.blit(score_surface, (365, 20, 50, 50))
+    pg.draw.rect(screen, Colors.light_blue, score_rect, 0, 10)
     game.draw(screen)
 
     # Updating
