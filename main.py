@@ -14,16 +14,24 @@ game = Game()
 
 # start of the game loop (check 3 things)
 while True:
-    # event listener 
+    # Event Listener
     for event in pg.event.get():
         if event.type == pg.QUIT:
             pg.quit()
             sys.exit()
+        if event.type == pg.KEYDOWN:
+            if event.key == pg.K_LEFT:
+                game.move_left()
+            if event.key == pg.K_RIGHT:
+                game.move_right()
+            if event.key == pg.K_DOWN:
+                game.move_down()
 
     # Drawing
     screen.fill(dark_blue)
     game.draw(screen)
-    
+
+    # Updating
     pg.display.update()
     clock.tick(60)
       
