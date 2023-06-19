@@ -13,7 +13,7 @@ clock = pg.time.Clock()
 
 game_grid = Grid()
 
-block = LBlock()
+block = IBlock()
 
 # start of the game loop (check 3 things)
 while True:
