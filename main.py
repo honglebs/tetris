@@ -1,7 +1,6 @@
 import pygame as pg
 import sys
-from grid import Grid
-from blocks import *
+from game import Game
 
 pg.init()
 dark_blue = (44, 44, 127)
@@ -11,9 +10,7 @@ pg.display.set_caption("Python Tetris")
 
 clock = pg.time.Clock()
 
-game_grid = Grid()
-
-block = TBlock()
+game = Game()
 
 # start of the game loop (check 3 things)
 while True:
@@ -25,9 +22,8 @@ while True:
 
     # Drawing
     screen.fill(dark_blue)
-    game_grid.draw(screen)
-    block.draw(screen)
-
+    game.draw(screen)
+    
     pg.display.update()
     clock.tick(60)
       
