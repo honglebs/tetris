@@ -5,7 +5,7 @@ from game import Game
 pg.init()
 dark_blue = (44, 44, 127)
 
-screen = pg.display.set_mode((300, 600))
+screen = pg.display.set_mode((500, 620))
 pg.display.set_caption("Tetris")
 
 clock = pg.time.Clock()
@@ -13,7 +13,7 @@ clock = pg.time.Clock()
 game = Game()
 
 GAME_UPDATE = pg.USEREVENT
-pg.time.set_timer(GAME_UPDATE, 20)
+pg.time.set_timer(GAME_UPDATE, 200)
 
 # start of the game loop (check 3 things)
 while True:

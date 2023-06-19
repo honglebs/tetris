@@ -33,3 +33,10 @@ Game Class - it will be a container for all the elements for our game
 
 
 Lock Block & Block Fits Methods
+
+
+
+How to display text 
+1. Create a font
+2. Create surafce with the text
+3. Display the surface using .bilt() method
