@@ -6,7 +6,7 @@ pg.init()
 dark_blue = (44, 44, 127)
 
 screen = pg.display.set_mode((300, 600))
-pg.display.set_caption("Python Tetris")
+pg.display.set_caption("Tetris")
 
 clock = pg.time.Clock()
 
