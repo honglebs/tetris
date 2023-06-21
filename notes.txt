@@ -53,4 +53,8 @@ Our Scoring System
 
 Additional Features
 - Hard Drop button for block to appear and lock block to collision at the bottom
-- 
+- Add music for background
+- Add sound effect for switching and dropping 
+- Add a hold button for saving a block ?
+- Add annimation for cleared lines
+- clear lines sound effect
