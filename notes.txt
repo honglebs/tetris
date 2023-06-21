@@ -48,3 +48,9 @@ Our Scoring System
  +500 points for a triple line clear
  +1000 points for a tetris clear
  +1 point for each tetromino moved down by the player
+
+
+
+Additional Features
+- Hard Drop button for block to appear and lock block to collision at the bottom
+- 
