@@ -58,3 +58,4 @@ Additional Features
 - Add a hold button for saving a block ?
 - Add annimation for cleared lines
 - clear lines sound effect
+- be able to see what comes next for multiple blocks
